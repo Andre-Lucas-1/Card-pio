@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+#geral{
+    width: 1000px;
+    height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/*FORMATANDO CABEÇALHO*/
+#cabecalho{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px ;
+}
+
+#logo{
+    width: 30px;
+    height: 60px;
+    background-color: rebeccapurple;
+}
+
+#menu{
+    width: 700px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*FORMATANDO MENU*/
+#menu a{
+    padding: 0px 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#menu a:hover{
+    padding: 0px 10px;
+    color: #ff0000;
+    text-decoration: none;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+/*FORMATANDO O CORPO DA PÁGINA*/
+#conteudo{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+}
+
+.conteudo{
+    width: 500px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8em;
+    
+}
+
+.conteudo{
+    letter-spacing: 3px;
+    font-family: 'Trebuchet MS'
+}
+
+.conteudo span{
+    background-color: #ff0000;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium'
+}
+
+#direito{
+    background-image: url(/imagens/hamburguer.jpg);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-color: #ffffff;
+    opacity: 0.3;
+}
+
+/*FORMATANDO O RODAPÉ*/
+footer{
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+
